@@ -37,6 +37,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cosmonexus/css-library@workspace:packages/css-library":
+  version: 0.0.0-use.local
+  resolution: "@cosmonexus/css-library@workspace:packages/css-library"
+  languageName: unknown
+  linkType: soft
+
 "@monodeploy/changelog@npm:^4.3.0":
   version: 4.3.0
   resolution: "@monodeploy/changelog@npm:4.3.0"
