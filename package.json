@@ -2,6 +2,7 @@
   "name": "cosmonexus-workspace",
   "packageManager": "yarn@4.0.1",
   "devDependencies": {
+    "lefthook": "1.5.2",
     "typescript": "^5.2.2"
   }
 }
