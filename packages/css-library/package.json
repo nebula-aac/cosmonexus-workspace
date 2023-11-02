@@ -1,4 +1,9 @@
 {
   "name": "@cosmonexus/css-library",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
   "packageManager": "yarn@4.0.1"
 }

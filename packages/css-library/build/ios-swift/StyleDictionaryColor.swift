@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 02 Nov 2023 03:20:07 GMT
+// Generated on Thu, 02 Nov 2023 03:26:41 GMT
 
 
 import UIKit
@@ -15,6 +15,9 @@ public enum StyleDictionaryColor {
     public static let baseGrayMedium = UIColor(red: 0.600, green: 0.600, blue: 0.600, alpha: 1)
     public static let baseGreen = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
     public static let baseRed = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
+    public static let buttonBackgroundPrimary = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1) /* the primary button's background color */
+    public static let buttonBackgroundSecondary = UIColor(red: 0.000, green: 0.502, blue: 0.000, alpha: 1)
+    public static let buttonBackgroundTertiary = UIColor(red: 0.000, green: 0.000, blue: 1.000, alpha: 1)
     public static let fontBase = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let fontSecondary = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
     public static let fontTertiary = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
