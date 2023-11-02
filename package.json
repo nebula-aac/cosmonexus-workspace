@@ -1,8 +1,14 @@
 {
   "name": "cosmonexus-workspace",
-  "packageManager": "yarn@4.0.1",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lefthook": "1.5.2",
-    "typescript": "^5.2.2"
-  }
+    "monodeploy": "^4.3.0"
+  },
+  "packageManager": "yarn@4.0.1"
 }

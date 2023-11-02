@@ -1,0 +1,1 @@
+module.exports = { preset: 'monodeploy/preset-recommended' }
