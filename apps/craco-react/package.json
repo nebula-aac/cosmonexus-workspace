@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "craco build",
+    "build": "style-dictionary build",
+    "react:build": "craco build",
     "eject": "react-scripts eject",
-    "start": "craco start --verbose",
-    "test": "craco test"
+    "react:start": "craco start --verbose",
+    "react:test": "craco test"
   },
   "browserslist": {
     "production": [
@@ -31,6 +32,8 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "lodash": "^4.17.21",
+    "lodash.kebabcase": "^4.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
@@ -44,6 +47,7 @@
     "eslint": "^8.52.0",
     "eslint-config-react-app": "^7.0.1",
     "postcss": "^8.4.31",
+    "style-dictionary": "^3.9.0",
     "tailwindcss": "^3.3.5"
   }
 }

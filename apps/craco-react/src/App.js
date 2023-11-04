@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <button className="bg-black-light">Button</button>
       </header>
     </div>
   );

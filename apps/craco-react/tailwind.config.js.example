@@ -1,0 +1,8 @@
+import('./tokens/tokens.js')
+  .then((module) => {
+    const tokens = module.default;
+    console.log(tokens);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
