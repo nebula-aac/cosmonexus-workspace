@@ -1,0 +1,14 @@
+{
+    "color": {
+        "button": {
+            "background": {
+                "primary": {
+                    "value": "red",
+                    "comment": "the primary button's background color"
+                },
+                "secondary": { "value": "green" },
+                "tertiary": { "value": "blue" }
+            }
+        }
+    }
+}
